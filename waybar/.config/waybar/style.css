@@ -1,7 +1,7 @@
 /* General */
 * {
   border-radius: 0;
-  font-family: "Fira Mono", "Font Awesome 6 Free";
+  font-family: "FiraCode Nerd Font";
   font-size: 13px;
   color: #c0caf5;
 }
@@ -25,29 +25,33 @@ tooltip {
   box-shadow: none;
 }
 
-#workspaces button.focused {
+#workspaces button.focused,
+#workspaces button.active {
   background-color: #414868;
 }
 
 /* Modules */
 #clock,
-#battery,
 #network,
 #pulseaudio,
+#bluetooth,
 #custom-updates,
 #custom-tasks,
 #mode {
   padding: 1px 9px;
 }
 
-#mode,
-#custom-updates {
-  font-weight: bold;
-  color: #bb9af7;
+#battery {
+  padding: 1px 12px;
 }
 
-#custom-failed-services,
-#network.disconnected {
+#mode,
+#custom-updates {
+  color: #bb9af7;
   font-weight: bold;
+}
+
+#battery.critical {
   color: #f7768e;
+  font-weight: bold;
 }
