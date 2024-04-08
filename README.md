@@ -2,6 +2,9 @@
 
 :unicorn: My personal dotfiles
 
+> [!WARNING]  
+> Since I'm using [NixOS](https://nixos.org/) now, these dotfiles have been superseeded by my [Nixfiles](https://github.com/cloudlena/nixfiles) and are not maintained anymore.
+
 I mainly work with [Go](https://golang.org), [Rust](https://www.rust-lang.org), [JavaScript](https://en.wikipedia.org/wiki/JavaScript), [TypeScript](https://www.typescriptlang.org), [Markdown](https://en.wikipedia.org/wiki/Markdown) and [shell scripts](https://en.wikipedia.org/wiki/Shell_script) so my setup is geared towards working with these technologies.
 
 Supported operating systems are macOS and Arch Linux (and its derivates).
